@@ -3,7 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    if self.include?
+    if self.include? "."
+      puts "true"
+    else 
+      puts "false"
+    end
   end
 
   def question?
